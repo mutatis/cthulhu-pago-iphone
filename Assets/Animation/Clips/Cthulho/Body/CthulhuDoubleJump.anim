@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CthulhuDoubleJump
+  serializedVersion: 4
+  m_AnimationType: 2
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 0aa508c350d020c4a97084eedd9dbab8, type: 3}
+    - time: .0625
+      value: {fileID: 21300000, guid: 970b3ba4851e53448adc55f72751b6f2, type: 3}
+    - time: .125
+      value: {fileID: 21300000, guid: fc4d7e05a85bb5940b3ff554cd113329, type: 3}
+    - time: .1875
+      value: {fileID: 21300000, guid: ed851da821ad3ae48af96770fdc0b8af, type: 3}
+    - time: .25
+      value: {fileID: 21300000, guid: c520ddf9c47148f47aff5646e8510426, type: 3}
+    - time: .3125
+      value: {fileID: 21300000, guid: b20220862c563274eb4a2e4abf3b977e, type: 3}
+    - time: .375
+      value: {fileID: 21300000, guid: fb01b3b87886c694d820e7acb8a725ce, type: 3}
+    - time: .4375
+      value: {fileID: 21300000, guid: 710f6e372f132574aac6313d64aa51cb, type: 3}
+    - time: .5
+      value: {fileID: 21300000, guid: a057304207bedc14ba6736f59529fa44, type: 3}
+    - time: .5625
+      value: {fileID: 21300000, guid: d06c32f7b75d9fc4a857762200630127, type: 3}
+    - time: .625
+      value: {fileID: 21300000, guid: 2e60b96b74f2f394fbea7682dc246370, type: 3}
+    attribute: m_Sprite
+    path: 
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 16
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: .6875
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

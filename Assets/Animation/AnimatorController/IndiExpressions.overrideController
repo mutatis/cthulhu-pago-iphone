@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: IndiExpressions
+  m_Controller: {fileID: 9100000, guid: 171a49d2b9e1ec04980e142b611302a0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 4754f281ff1185049b8d28763748cb33, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e59bb95ddd004f541a26fb03b910ef11, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 10da290721c46164887c2d150bb2a22d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: affe274dc588a424fadc0c7288f22784, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 73f3c370eaa163f4eabfd432d6651d51, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b9df78d55e2d0574e90f79590089585a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ab7673ec920dea340a3ae0d27522465b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ab7673ec920dea340a3ae0d27522465b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b9a92dccad8a8eb42a9a62bdd750c838, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b9a92dccad8a8eb42a9a62bdd750c838, type: 2}
