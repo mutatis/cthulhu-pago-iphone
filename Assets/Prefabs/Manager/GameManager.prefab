@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 65.0059967, y: 6.14909983, z: -1.90729997e-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6756443cf0fc5784389f2b3f04c1dd03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sCoins: 0
+  lvlUpCallsInTheLastMission: 0
+  permanentDoubleCoin: 0
+  permanentTrippleCoin: 0
+  doubleCoin: 0
+  extraLife: 0
+  hasContinue: 0
+  hasRio: 0
+  hasChina: 0
+  hasSCthulhu: 0
+  hasIndi: 0
+  hasDagon: 0
+  hasFlappy: 0
+  hasMoon: 0
+  hasAfrica: 0
+  hasNewYork: 0
+  hasIce: 0
+  hasEgypt: 0
+  selectRio: 0
+  transition: {fileID: 0}
+  sair: {fileID: 100000, guid: 85bc4559ebdfa9140b9845e031b94755, type: 2}
+  fases: ' '
+  playerHighScore: 0
+  accumulatedScore: 0
+  playerCurrentScore: 0
+  lastScene: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

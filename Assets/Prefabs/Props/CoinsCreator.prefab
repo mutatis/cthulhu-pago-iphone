@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11408294}
+  m_Layer: 0
+  m_Name: CoinsCreator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 194.600006, y: 16.3999996, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d1b59f06dd83b64d8176ae9541b9c50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRuntime: 1
+  gameObjectToBeCreated:
+  - {fileID: 100188, guid: b62ca1ea6a997a146a883fab1005e1e4, type: 2}
+  - {fileID: 100232, guid: 42fca372445284b49943246f958952ad, type: 2}
+  - {fileID: 100060, guid: 3213a9aeaa2bcae47859113ab9e48ff7, type: 2}
+  - {fileID: 100344, guid: ea35ed83043d27748b96848514037d2c, type: 2}
+  - {fileID: 100144, guid: 96310a32f4542704583798093ffefac5, type: 2}
+  - {fileID: 100000, guid: 610fe0d05be1c8c408407cd590e457cc, type: 2}
+  - {fileID: 100344, guid: d6256b88596a68e428c0be405f7b9ebb, type: 2}
+  - {fileID: 100180, guid: af54b4a15b5fee74bb2fb83e1f769ff7, type: 2}
+  - {fileID: 100484, guid: 81a4a53262b79e8448bcb8a50be2b29c, type: 2}
+  - {fileID: 100000, guid: 3dcaf41b7818a8d47b9321481cd795fc, type: 2}
+  - {fileID: 100152, guid: 3d48fbf29edc2c34985fa885197a7dd6, type: 2}
+  howMany: 8
+  rowCreatorOptions: 5
+  minDistance: 200
+  maxDistance: 400
+  yVariance: 0
+  distance: 100
+  hasStartTerminator: 0
+  hasEndTerminator: 0
+  startTerminator: {fileID: 0}
+  endTerminator: {fileID: 0}
+  spriteRenderers: []
+--- !u!114 &11408294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d494a06dfa4b8044cae90ab75213067e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  posY: {fileID: 400000}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
