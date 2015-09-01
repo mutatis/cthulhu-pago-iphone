@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SplashLoading.unity
+  - enabled: 1
+    path: Assets/Scenes/Ocean.unity
+  - enabled: 1
+    path: Assets/Scenes/NewYork.unity
+  - enabled: 1
+    path: Assets/Scenes/Rio de Janeiro.unity
+  - enabled: 1
+    path: Assets/Scenes/Lua.unity
+  - enabled: 1
+    path: Assets/Scenes/Africa.unity
+  - enabled: 1
+    path: Assets/Scenes/Shopping.unity
+  - enabled: 1
+    path: Assets/Scenes/Historia.unity
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+  - enabled: 1
+    path: Assets/Scenes/Loading.unity
+  - enabled: 1
+    path: Assets/Scenes/Egypt.unity
+  - enabled: 1
+    path: Assets/Scenes/China.unity
+  - enabled: 1
+    path: Assets/Scenes/Ice.unity
+  - enabled: 1
+    path: Assets/Scenes/ManOfSteel.unity
+  - enabled: 1
+    path: Assets/Scenes/Indi.unity
+  - enabled: 1
+    path: Assets/Scenes/FlappyCthulhu.unity
+  - enabled: 1
+    path: Assets/Scenes/Ocean.unity
+  - enabled: 1
+    path: Assets/Scenes/CreditosLoading.unity
+  - enabled: 1
+    path: Assets/Scenes/CarSh.unity
+  - enabled: 1
+    path: Assets/Scenes/ShP.unity
