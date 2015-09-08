@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!128 &12800000
+Font:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Greenhorn
+  serializedVersion: 4
+  m_AsciiStartOffset: 125
+  m_Kerning: 3.29999995
+  m_LineSpacing: 12.9899998
+  m_CharacterSpacing: 34
+  m_CharacterPadding: -16
+  m_ConvertCase: 2
+  m_DefaultMaterial: {fileID: 2100000, guid: d7fa6eaf4cc4f924f8c1cc990c587189, type: 2}
+  m_CharacterRects: []
+  m_Texture: {fileID: 0}
+  m_KerningValues: []
+  m_PixelScale: .100000001
+  m_FontData: 
+  m_FontSize: 0
+  m_Ascent: 0
+  m_DefaultStyle: 0
+  m_FontNames: []
+  m_FallbackFonts: []
+  m_FontRenderingMode: 0
